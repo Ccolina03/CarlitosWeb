@@ -1,9 +1,13 @@
 import React from 'react';
+import Heading from '../components/Heading';
 
 const HomePage = () => {
     return (
-        <div>
-            <p>hola</p>
+        <div className='flex flex-col w-full space-y-10'>
+            <Heading size='h1'>
+                Hello, I am Carlos
+            </Heading>
+
         </div>
     )
 }

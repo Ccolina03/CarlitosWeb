@@ -6,8 +6,8 @@ export type AuthenticatedLayoutProps = {
 
 export const AuthenticatedLayout:React.FC<AuthenticatedLayoutProps> = ({children}) => {
     return (
-      <div>
+      <main>
         {children}
-      </div>
+      </main>
     )
 }
