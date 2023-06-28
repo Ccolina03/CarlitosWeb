@@ -1,4 +1,5 @@
 import React, {ReactNode} from 'react';
+import SideBar from '../components/SideBar';
 
 export type AuthenticatedLayoutProps = {
     children?: ReactNode;
@@ -6,8 +7,11 @@ export type AuthenticatedLayoutProps = {
 
 export const AuthenticatedLayout:React.FC<AuthenticatedLayoutProps> = ({children}) => {
     return (
-      <main>
+      <div>
+      <SideBar/>
+      <main className='ml-16 '>
         {children}
       </main>
+      </div>
     )
 }

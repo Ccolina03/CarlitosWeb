@@ -1,3 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+
+    .sidebar-icon {
+        @apply relative flex items-center justify-center
+        h-12 w-12 mt-2 mb-2 mx-auto bg-gray-800 text-green
+        hover:bg-gray-400 hover:text-green hover:rounded-xl transition-all duration-300 ease-linear
+    }
+}
