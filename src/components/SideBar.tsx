@@ -34,4 +34,4 @@ const SideBarIcon: FC<{icon: React.ReactNode}> = ({icon}) => {
     )
 }
 
-export default SideBar
+export default SideBar;
