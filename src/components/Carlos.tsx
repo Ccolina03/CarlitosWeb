@@ -25,7 +25,7 @@ const Carlos: FC<CarlosProps> = (
 ) => {
     return (
         <div className={`flex justify-center ${getCarlos(noShowSm)}`}>
-            <img className="object-contain rounded-lg w-auto h-full" src={Carlitos} alt="Carlos Picture"></img>
+            <img className="object-contain rounded-lg w-full h-full" src={Carlitos} alt="Carlos Picture"></img>
         </div>
     )
 }

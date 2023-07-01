@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react';
+import React, {ReactNode, useState} from 'react';
 import SideBar from '../components/SideBar';
 
 export type AuthenticatedLayoutProps = {
