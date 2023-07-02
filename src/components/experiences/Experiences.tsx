@@ -11,8 +11,9 @@ const Experiences = () => {
                     <div className='line1 w-0.5 bg-gray-100 h-36'></div>
                     <div className=' circle1 relative overflow-visible flex justify-center items-center rounded-full border-2 border-white h-28 w-full hover:bg-green '>
                          <img src={UAlberta} alt='UAlberta icon'></img>
-                         <div className='job1 absolute z-30 bg-green rounded w-[50vw]'>
-                                Job
+                         <div className='job1 px-10 py-8 absolute rounded-[25px] w-[50vw]'>
+                                <Heading className='text-white font-extrabold' size='h3'>SWE Intern</Heading>
+                                <Heading className='text-white mt-3' size='h5'>Litespace</Heading>
                         </div>
                     </div>
                     <div className='line1 w-0.5 bg-gray-100 h-96'></div>

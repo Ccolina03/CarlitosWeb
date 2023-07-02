@@ -14,7 +14,15 @@ module.exports = {
       gilroy:["var(--font-gilroy", ...fontFamily.sans],
     },
     colors: {
-      bannerColor: "rgba(130,224,249,1",
+      green1: {
+        400: "rgba(74, 222, 128)",
+        300: "rgb(134, 239 ,172)"
+      },
+      blue: {
+        500: "rgb(59 130 246)"
+      },
+      bannerColor: "rgba(130,224,249,1)",
+      white: "rgba(255, 255, 255)",
       primary: "#202225",
       secondary: "#5865f2",
       black: "#1E1E1E",
