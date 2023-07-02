@@ -20,7 +20,6 @@ const SideBar = () => {
 
                 </div>
                 <div className="sm:mt-96 xs:mt-96 md:mt-0 lg:mt-0 xl:flex-1/2 xl:flex-start justify-end xl:pr-14 lg:pr-14">
-                <SideBarIcon icon={<AiOutlineGithub size = "30"/>}/>
                 </div>
 
             </div>

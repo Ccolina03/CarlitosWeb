@@ -1,5 +1,7 @@
 import React from 'react';
 import Heading from '../Heading';
+import UAlberta from '../../gallery/icon-ualberta.svg'
+
 const Experiences = () => {
     return (
         <div className='flex flex-col items-center gap-16 '>
@@ -9,7 +11,9 @@ const Experiences = () => {
                     <div className='line1 w-0.5 bg-gray-100 h-36'></div>
                     <div className='circle1 rounded-full border-2 border-white h-28 w-full'></div>
                     <div className='line1 w-0.5 bg-gray-100 h-96'></div>
-                    <div className='circle1 rounded-full border-2 border-white h-28 w-full'></div>
+                    <div className='circle1 rounded-full border-2 border-white h-28 w-full hover:bg-green'>
+                        <img src={UAlberta} alt='UAlberta icon'></img>
+                    </div>
                     <div className='line1 w-0.5 bg-gray-100 h-96'></div>
                     <div className='circle1 rounded-full border-2 border-white h-28 w-full'></div>
                 </div> 

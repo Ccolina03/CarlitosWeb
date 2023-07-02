@@ -1,12 +1,20 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require ('tailwindcss/colors')
+const { colors, fontFamily } = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   darkMode: false,
   theme: {
+    backgroundImage: {
+      "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      "gradient-radial": "radial-gradient(var(--tw-gradient-stops))"
+    },
+    fontFamily: {
+      gilroy:["var(--font-gilroy", ...fontFamily.sans],
+    },
     colors: {
+      bannerColor: "rgba(130,224,249,1",
       primary: "#202225",
       secondary: "#5865f2",
       black: "#1E1E1E",
@@ -49,4 +57,7 @@ module.exports = {
     },
   },
   plugins: [],
+  "paths": {
+    "@/*":["./*"],
+  }
 }
