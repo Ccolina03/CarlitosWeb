@@ -11,7 +11,7 @@ const Introduction = () => {
     return (
         <div className='flex flex-col lg:flex-row md:flex-row'> 
         <div className="flex flex-col space-y-5 ml-16 mt-5" >
-                <Heading className = 'animate-bounce' size='h1'>
+                <Heading className = 'text-5xl animate-bounce' size='h1'>
                     Carlos Colina <span>👋🏾</span>
                 </Heading>
             <div className='flex' >

@@ -2,25 +2,8 @@ import React,{FC} from 'react';
 import Heading from './Heading';
 import UPrintI from '../gallery/Screenshot 2023-04-02 174506.png'
 import {BsYoutube} from 'react-icons/bs'
-import {DiGithubAlt} from 'react-icons/di'
-
-export interface SideBarIconProps {
-    icon: React.ReactNode, 
-    className:string
-}
-
-
-//SideBarIcon will become reusable. Card must be reusable too.
-const SideBarIcon: FC<SideBarIconProps> = ({
-        icon, 
-        className = ""
-}) => {
-    return (
-    <div className={`sidebar-icon xl:mr-2 xl:mt-0 sticky ${className}`}>
-        {icon}
-    </div>
-    )
-}
+import {DiGithubAlt} from 'react-icons/di';
+import SideBarIcon from './SideBarIcon';
 
 export interface CardProps {
     title: string,
