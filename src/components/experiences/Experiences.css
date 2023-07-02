@@ -1,0 +1,5 @@
+.job1 {
+    width: 30vw;
+    height:300px;
+    left: calc(-30vw - 20px)
+}
