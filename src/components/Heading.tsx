@@ -38,7 +38,7 @@ const Heading: FC<HeadingProps> = (
     //
     const ComponentTag = size as keyof JSX.IntrinsicElements;
     return (
-        <ComponentTag className={`${getSize(size)} ${className}`}> 
+        <ComponentTag className={`${getSize(size)} text-white ${className}`}> 
             {children}
         </ComponentTag>
     )

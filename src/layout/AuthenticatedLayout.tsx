@@ -8,8 +8,10 @@ export type AuthenticatedLayoutProps = {
 export const AuthenticatedLayout:React.FC<AuthenticatedLayoutProps> = ({children}) => {
     return (
       <div>
+      <aside className='md:mb-16 lg:mb-16'>
       <SideBar/>
-      <main className='ml-16 '>
+      </aside>
+      <main className='bg-backgroundWork'>
         {children}
       </main>
       </div>

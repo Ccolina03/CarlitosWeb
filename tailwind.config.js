@@ -21,6 +21,7 @@ module.exports = {
       blue: {
         500: "rgb(59 130 246)"
       },
+      backgroundWork: '#0E1115',
       bannerColor: "rgba(130,224,249,1)",
       white: "rgba(255, 255, 255)",
       primary: "#202225",
